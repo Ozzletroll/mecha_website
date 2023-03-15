@@ -23,13 +23,13 @@ body {
 
 .border_left {
   display: flex;
-  background-color:#c5c5c52c;
+  background-color:#c5c5c50e;
   flex: 1 1 auto;
 }
 
 .border_right {
   display: flex;
-  background-color:#c5c5c52c;
+  background-color:#c5c5c50e;
   flex: 1 1 auto;
 }
 
