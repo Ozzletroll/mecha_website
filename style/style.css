@@ -8,6 +8,12 @@
   --colour6: #f4f4f4dc;
 }
 
+html, body {
+  overflow-x: hidden;
+}
+body {
+  position: relative
+}
 
 body {
   display: flex;
@@ -90,6 +96,7 @@ p {
   gap: 2vw;
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }
 
 .logo_area {
@@ -97,6 +104,7 @@ p {
   flex: 0 1 auto;
   flex-wrap: wrap;
   flex-direction: column;
+  align-items: center;
   justify-content: center;
   gap: 5%;
 }
@@ -110,6 +118,22 @@ p {
 .top_logo {
   max-width: 3vw;
   max-height: 3vw;
+}
+
+.buffer {
+  width: 50px;
+}
+
+.slash_area {
+  display: flex;
+  flex-direction: row;
+}
+
+.slash {
+  height: 150px;
+  width: 50px;
+  background-color: var(--colour1);
+  transform: skew(-.55rad);
 }
 
 .header_links {
@@ -415,5 +439,18 @@ a:hover::before {
   .logo_area {
     align-items: center;
   }
+
+}
+
+@media screen and (max-width: 800px) { 
+
+  .buffer {
+    display: none;
+  }
+
+  .slash {
+    display: none;
+  }
+
 
 }
