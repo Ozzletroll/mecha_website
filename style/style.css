@@ -15,6 +15,7 @@ body {
   justify-content: space-between;
   margin: 0;
   color: var(--colour4);
+  background-attachment: fixed;
   background-color: rgba(0, 0, 0, 0.863);
   background-image: url("../images/topography.svg");
   animation: 55s linear 0s infinite bp2;
