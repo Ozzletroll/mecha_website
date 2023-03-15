@@ -31,17 +31,17 @@ body {
 }
 
 h1 {
-  font-size: 50px;
+  font-size: min(10vw, 60px);
   color: var(--colour4);
 }
 
 h3 {
-  font-size: 40px;
+  font-size: min(7vw, 50px);
   color: var(--colour4);
 }
 
 p {
-  font-size: 16px;
+  font-size: min(10vw, 16px);
   color: black;
 }
 
@@ -58,7 +58,10 @@ p {
 
 .logo_area {
   display: flex;
-  flex-direction: row;
+  flex: 0 1 auto;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: center;
   gap: 5%;
 }
 
@@ -66,6 +69,11 @@ p {
   font-size: min(5vw, 30px);
   font-weight: bold;
   color: white;
+}
+
+.top_logo {
+  max-width: 5vw;
+  max-height: 5vw;
 }
 
 .header_links {
@@ -115,15 +123,10 @@ p {
   gap: 15%;
   display: flex;
   flex-direction: row;
-  align-items: center;
+  align-items: flex-start;
   transition: all 500ms ease-in-out;
 }
 
-.main_upper:hover {
-  transition: all 500ms ease-in-out;
-  /* background-image: url("../images/Mech3.webp"); */
-
-}
 
 .text_area {
   display: flex;
@@ -331,4 +334,43 @@ a:hover::before {
 @keyframes typing1 {
   from { width: 0 }
   to { width: 100% }
+}
+
+@media screen and (max-width: 600px) { 
+
+  .main_upper {
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-left: 0%;
+    padding-right: 0%;
+  }  
+  
+  .main_middle {
+    flex-wrap: wrap;
+    padding-left: 0%;
+    padding-right: 0%;
+  }  
+
+  .main_lower {
+    flex-wrap: wrap;
+    padding-left: 0%;
+    padding-right: 0%;
+  }  
+
+  .text_area {
+    padding-bottom: 5%;
+  }
+
+  .text_area p {
+    font-size: 4vw;
+  }
+
+  .header {
+    padding: 5%;
+  }
+
+  .logo_area {
+    align-items: center;
+  }
+
 }
