@@ -17,7 +17,7 @@ body {
   color: var(--colour4);
   background-color: rgba(0, 0, 0, 0.863);
   background-image: url("../images/topography.svg");
-  animation: 15s linear 0s infinite bp2;
+  animation: 55s linear 0s infinite bp2;
 }
 
 
