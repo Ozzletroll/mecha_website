@@ -34,7 +34,7 @@ body {
 }
 
 .content {
-  max-width: 1920px;
+  max-width: 1700px;
   font-family: Monospace, Verdana, Arial, Helvetica, sans-serif;
   display: flex;
   flex-direction: column;
@@ -404,6 +404,10 @@ a:hover::before {
 
   .header {
     padding: 5%;
+  }
+
+  .header_links a {
+    font-size: 10px;
   }
 
   .logo_area {
