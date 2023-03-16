@@ -155,13 +155,15 @@ p {
   padding-left: 10%;
   padding-right: 10%;
   display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: space-between;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
   transition: all 500ms ease-in-out;
 }
 
 .upper_text_area {
+  display: flex;
+  flex-direction: column;
   width: 30%;
 }
 
