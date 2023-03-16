@@ -436,10 +436,12 @@ a:hover::before {
 
   .header {
     padding: 5%;
+    justify-content: space-around;
   }
 
   .header_links a {
     font-size: 10px;
+    flex-direction: column;
   }
 
   .logo_area {
