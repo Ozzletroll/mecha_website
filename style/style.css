@@ -96,6 +96,7 @@ p {
   background-color: var(--colour4);
   height: 40px;
   padding: 55px;
+  padding-left: 10%;
   gap: 2vw;
   display: flex;
   justify-content: space-between;
