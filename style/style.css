@@ -78,11 +78,15 @@ body {
 h1 {
   font-size: min(10vw, 60px);
   color: var(--colour4);
+  margin-top: 5%;
+  margin: 0%;
 }
 
 h3 {
   font-size: min(7vw, 50px);
   color: var(--colour4);
+  margin-top: 5%;
+  margin: 0%;
 }
 
 p {
@@ -158,14 +162,16 @@ p {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  justify-content: flex-start;
+  justify-content: center;
   transition: all 500ms ease-in-out;
 }
 
 .upper_text_area {
   display: flex;
   flex-direction: column;
+  justify-content: center;
   width: 30%;
+  padding-bottom: 1%;
 }
 
 .upper:hover {
