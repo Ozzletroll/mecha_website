@@ -125,8 +125,8 @@ p {
 }
 
 .top_logo {
-  max-width: 3vw;
-  max-height: 3vw;
+  max-width: min(50px, 3vw);
+  max-height: min(50px, 3vw);
 }
 
 .buffer {
