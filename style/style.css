@@ -448,6 +448,9 @@ a:hover::before {
 
   .header_links a {
     font-size: 10px;
+  }
+
+  .header_links {
     flex-direction: column;
   }
 
