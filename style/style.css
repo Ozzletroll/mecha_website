@@ -147,6 +147,7 @@ p {
 }
 
 .header_links {
+  font-family: monospace;
   display: flex;
   flex-wrap: wrap;
   align-items: center;
@@ -315,7 +316,7 @@ img {
 }
 
 a {
-  font-size: 15px;
+  font-size: 18px;
   color: var(--colour3);
   position: relative;
   text-decoration: none;
@@ -413,6 +414,13 @@ a:hover::before {
   to { width: 100% }
 }
 
+@media screen and (max-width: 400px) { 
+
+  .header_links {
+    gap: 5px;
+  }
+ }
+
 @media screen and (max-width: 600px) { 
 
   .main_upper {
@@ -448,11 +456,7 @@ a:hover::before {
   }
 
   .header_links a {
-    font-size: 10px;
-  }
-
-  .header_links {
-    flex-direction: column;
+    font-size: 12px;
   }
 
   .logo_area {
