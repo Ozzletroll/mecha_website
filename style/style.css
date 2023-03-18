@@ -118,6 +118,7 @@ p {
 }
 
 .header_logo {
+  font-family: monospace;
   font-size: min(5vw, 30px);
   font-weight: bold;
   color: white;
